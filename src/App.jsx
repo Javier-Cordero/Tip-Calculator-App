@@ -27,7 +27,7 @@ function App() {
   }
   return (
     <>
-      <header><img src="/logo.svg" alt="logo de tip calculator" /></header>
+      <header><img src="logo.svg" alt="logo de tip calculator" /></header>
       <General>
         <Data handleChange={handleChange} valor={valor} handleTipClick={handleTipClick} />
         <Result totals={totals} Reset={Reset} />
