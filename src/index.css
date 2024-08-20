@@ -31,7 +31,7 @@ h1 {
 }
 
 .input-bill {
-  background-image: url('icon-dollar.svg');
+  background-image: url('/icon-dollar.svg'); /* Ruta actualizada */
   background-repeat: no-repeat;
   background-position: center left;
   background-origin: content-box;
@@ -117,7 +117,7 @@ button {
 }
 
 .input-people {
-  background-image: url('icon-person.svg');
+  background-image: url('/icon-person.svg'); /* Ruta actualizada */
   background-repeat: no-repeat;
   background-position: center left;
   background-origin: content-box;
@@ -167,7 +167,6 @@ button {
   padding: 7px;
 }
 
-
 input:focus {
   border: 2px solid var(--primary);
   outline: none;
@@ -182,5 +181,3 @@ input:focus {
 .input-invalid, .input-invalid:focus {
   border: 2px solid orangered;
 }
-
- 
